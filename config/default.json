@@ -1,4 +1,5 @@
 {
   "mongoURI": "mongodb+srv://cwhite5:FSeyREiEJ0JrUhgH@cluster0.wrcwk.mongodb.net/<dbname>?retryWrites=true&w=majority",
-  "mongoPass": "FSeyREiEJ0JrUhgH"
+  "mongoPass": "FSeyREiEJ0JrUhgH",
+  "jwtSecret": "fdjkasjflkdsajflafkjasfdlk"
 }
