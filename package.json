@@ -4,6 +4,8 @@
   "description": "Brad Traversy MERN course example",
   "main": "server.js",
   "scripts": {
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
     "start": "node server",
     "server": "nodemon server",
     "test": "echo \"Error: no test specified\" && exit 1"
